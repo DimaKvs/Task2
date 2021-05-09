@@ -3,7 +3,7 @@ import {getData, getDataFromLocalStorage} from './services/services.js'
 import {Component} from './module/Component.js'
 import {count} from './module/counter.js' 
 
-const URL ='http://www.boredapi.com/api/activity/'; //'https://cat-fact.herokuapp.com/facts/591f98803b90f7150a19c229'//
+const URL ='http://www.boredapi.com/api/activity/'; 
 
 const btnSearch = document.querySelector('.btn-search');
 const adviceContainer = document.querySelector('.advice-container');

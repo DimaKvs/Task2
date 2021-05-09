@@ -1,6 +1,6 @@
 
 export const count = (function() {  // each of this functions has its inner Lexical environment {}, and every function refer to same 
-                                    //outer Lexical env { counter }, global lexical env { declared variables in that environment }  
+                                    //outer Lexical env { counter }, global lexical env { declared variables in global environment }  
     let counter  = 0;
     
     return {
